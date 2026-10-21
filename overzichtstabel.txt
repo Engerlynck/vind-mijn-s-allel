@@ -1,0 +1,62 @@
+perenvariëteit	soort	ouders	s-genotype	ploidie	bronnen
+Conference	Pyrus communis L.		S108-S121	2x	1
+Doyenne du Comice	Pyrus communis L.		S104/2-S105	2x	1
+Concorde	Pyrus communis L.		S104/2-S108	2x	1
+Abate Fetel	Pyrus communis L.		S104/2-S105	2x	1
+Alexandre Douillard	Pyrus communis L.		S103-S104/2	2x	1
+Angelys	Pyrus communis L.		S105-S121	2x	1
+Bartlett	Pyrus communis L.		S101-S102	2x	1
+Beech Hill	Pyrus communis L.		S123-S124	2x	1
+Beurre Alexandre Lucas	Pyrus communis L.		S101-S104/1-S111	3x	1
+Beurre de Merode	Pyrus communis L.		S101-S113	3x	1
+Madame Verte	Pyrus communis L.		S102-S111	2x	1
+Beurre Hardy	Pyrus communis L.		S108-S114	2x	1
+Beurre Sterckman	Pyrus communis L.		S110-S115	2x	1
+Boheme	Pyrus communis L.		S101-S120	2x	1
+Bongerspeer	Pyrus communis L.		S102-S110	2x	1
+Box's Goldrush	Pyrus communis L.		S107-S125	2x	1
+Carmen	Pyrus communis L.		S105-S120	2x	1
+Catillac	Pyrus communis L.		S108-S114-S125	3x	1
+Celina/Qtee	Pyrus communis L.		S101-S125	2x	1
+Cepuna/Migo	Pyrus communis L.		S101-S108	2x	1
+Clapp's Favorite	Pyrus communis L.		S101-S108	2x	1
+Clara Frijs	Pyrus communis L.		S101-S125	2x	1
+Comptesse de Paris	Pyrus communis L.		S123-S125	2x	1
+Corina	Pyrus communis L.		S108-S121	2x	1
+Delbard Delice	Pyrus communis L.		S101-S105	2x	1
+Dicolor	Pyrus communis L.		S103-S116	2x	1
+Double de Guerre	Pyrus communis L.		S106-S113	2x	1
+Durondeau	Pyrus communis L.		S107-S125	2x	1
+Forelle	Pyrus communis L.		S101-S116	2x	1
+General Leclerc	Pyrus communis L.		S102-S116	2x	1
+Gieser Wildeman	Pyrus communis L.		S101-S111	2x	1
+Improved Fertility	Pyrus communis L.		S107-S118	2x-4x	1
+Josephine de Malines	Pyrus communis L.		S107-S122	2x	1
+Kleipeer	Pyrus communis L.		S101-S108	2x	1
+Kruidenierspeer	Pyrus communis L.		S103-S113	2x	1
+Lawson	Pyrus communis L.		S104/1-S113	2x	1
+Légipont	Pyrus communis L.		S102-S108	2x	1
+Louise bonne	Pyrus communis L.		S101-S102	2x	1
+RNA802/Red Modoc	Pyrus communis L.		S101-S116	2x	1
+Noordhollandse Suikerpeer	Pyrus communis L.		S101-S115-S113	3x	1
+Passe Crassane	Pyrus communis L.		S110-S121	2x	1
+Velvetine	Pyrus communis L.		S101-S121	2x	1
+Regal Red Comice	Pyrus communis L.		S104/2-S105	2x	1
+Roksolana	Pyrus communis L.		S114-S123	2x	1
+Saint-Mathieu	Pyrus communis L.		S123-S129	3x	1
+Sweet Sensation	Pyrus communis L.		S104/2-S105	2x	1
+Triomphe de Jodoigne	Pyrus communis L.		S102-S104/2-S123	3x	1
+Triomphe de Vienne	Pyrus communis L.		S101-S103	2x	1
+Turandot	Pyrus communis L.		S101-S104/2	2x	1
+Uta/Dazzling Gold	Pyrus communis L.		S101-S125	2x	1
+Verdi/Sweet Blush	Pyrus communis L.		S101-S104/2	2x	1
+P3296	Pyrus betulifolia		S38-S59	2x	1
+Chanticleer	Pyrus calleryana		S1-S37	2x	1
+Olympic	Pyrus pyrifolia		S3	2x	1
+Shinseikii	Pyrus pyrifolia		S3-S4	2x	1
+PremP109	Hybrid		S5-S12	2x	1
+Bartlett DH	Pyrus communis L.		S101	-	2
+Hosui	Pyrus pyrifolia		S3-S5	-	1,2
+Nijisseikii	Pyrus pyrifolia		S2-S4	-	2
+Doitsu	Pyrus pyrifolia		S1-S2	-	2
+Ya Li	Pyrus pyrifolia		S17-S21	-	2
