@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNIPer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ref.html">bronnenlijst</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container2">
+        <h1>Welkom!</h1>
+        <p>Op zoek naar de S-allelen van een perenvariëteit? Gebruik de zoekbalken hieronder!</p>
+        <div id="filters">
+            <select id="soort">
+              <option value="">Alle perensoorten</option>
+            </select>
+
+            <select id="ploidie">
+                <option value="">Alle ploidiegraden</option>
+            </select>
+
+            <input type="text" id="nameSearch" placeholder="perenvariëteit">
+        </div>
+        <div id="table-container">Loading...</div>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <a href="https://www.pgcilab.com/">website</a> |
+            <a href="https://www.linkedin.com/in/hanne-claessen">LinkedIn</a> |
+            <a href="https://github.com/Engerlynck/">GitHub</a> |
+        </p>
+        <p>© 2026 PGCI lab, KU Leuven, Belgium</p>
+    </footer>
+
+    <script>
+        let tableData = [];
+
+        fetch("overzichtstabel.txt")
+        .then(response => response.text())
+        .then(text => {
+            const rows = text.trim().split("\n");
+
+            const headers = rows[0].split("\t");
+            tableData = rows.slice(1).map(row => {
+                const cols = row.split("\t");
+                let obj = {};
+                headers.forEach((h, i) => obj[h] = cols[i]);
+                return obj;
+            });
+
+            populateFilters(tableData);
+            renderTable(tableData, headers); 
+
+        });
+
+        function renderTable(data, headers) {
+            let html = "<table class='my-table'><tr>";
+
+            headers.forEach(h => {
+                html += `<th>${h}</th>`;
+            });
+
+            html += "</tr>";
+
+            data.forEach(row => {
+                html += "<tr>";
+                headers.forEach(h => {
+                    html += `<td>${row[h]}</td>`;
+                });
+                html += "</tr>";
+            });
+
+            html += "</table>";
+
+            document.getElementById("table-container").innerHTML = html;
+        }
+
+        function populateFilters(data) {
+            const speciesSet = new Set();
+            const ploidySet = new Set();
+
+            data.forEach(row => {
+                speciesSet.add(row.Species);
+                ploidySet.add(row.ploidy);
+            });
+
+            const speciesFilter = document.getElementById("speciesFilter");
+            speciesSet.forEach(val => {
+                speciesFilter.innerHTML += `<option value="${val}">${val}</option>`;
+            });
+
+            const ploidyFilter = document.getElementById("ploidyFilter");
+            ploidySet.forEach(val => {
+                ploidyFilter.innerHTML += `<option value="${val}">${val}</option>`;
+            });
+        }
+
+        document.getElementById("speciesFilter").addEventListener("change", applyFilters);
+        document.getElementById("ploidyFilter").addEventListener("change", applyFilters);
+        document.getElementById("nameSearch").addEventListener("input", applyFilters);
+        document.getElementById("idSearch").addEventListener("input", applyFilters);
+
+        function applyFilters() {
+            const species = document.getElementById("speciesFilter").value;
+            const ploidy = document.getElementById("ploidyFilter").value;
+            const name = document.getElementById("nameSearch").value.toLowerCase();
+            const id = document.getElementById("idSearch").value.toLowerCase();
+
+            const filtered = tableData.filter(row => {
+                return (
+                    (!species || row.Species === species) &&
+                    (!ploidy || row.ploidy === ploidy) &&
+                    (!name || row["Cultivar"].toLowerCase().includes(name)) &&
+                    (!id || row["Accession_ID_NCGR"].toLowerCase().includes(id))
+                );
+            });
+
+            renderTable(filtered, Object.keys(tableData[0]));
+        }
+    </script>
+</body>
+</html>
+
+
+
