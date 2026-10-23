@@ -103,8 +103,8 @@
             const ploidySet = new Set();
 
             data.forEach(row => {
-                speciesSet.add(row.Species);
-                ploidySet.add(row.ploidy);
+                speciesSet.add(row.Soort);
+                ploidySet.add(row.Ploidie);
             });
 
             const speciesFilter = document.getElementById("speciesFilter");
