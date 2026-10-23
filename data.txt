@@ -1,0 +1,63 @@
+Cultivar	Soort	Ouders	S-genotype	Ploidie	Alternatieve naam	Bronnen
+Conference	Pyrus communis L.	Seedling of Leon Leclerc de Laval	S108-S121	2x	/	1
+Doyenne du Comice	Pyrus communis L.	Glous Morceau x Duchesse d'Angoulème	S104/2-S105	2x	/	1
+Concorde	Pyrus communis L.	Conference x Doyenné du Comice	S104/2-S108	2x	/	1
+Abate Fetel	Pyrus communis L.	Beurré Clairgeau x Alexandre Douillard	S104/2-S105	2x	Abbé Fetel	1
+Alexandre Douillard	Pyrus communis L.	Glou Morceau x ?	S103-S104/2	2x	/	1
+Angélys	Pyrus communis L.	Doyenné d'Hiver x Doyenné du Comice	S105-S121	2x	/	1
+Bartlett	Pyrus communis L.	White Doyenné x ?	S101-S102	2x	Williams Bon Chrétien	1
+Beech Hill	Pyrus communis L.	Unknown	S123-S124	2x	/	1
+Beurré Alexandre Lucas	Pyrus communis L.	Unknown	S101-S104/1-S111	3x	Lukasowka, Lucaspeer	1
+Beurré de Merode	Pyrus communis L.	Unknown	S101-S113	3x	Double Philippe, Sommer Diel	1
+Madame Verté	Pyrus communis L.	Unknown	S102-S111	2x	Curé Verte, Poire De Kevers	1
+Beurré Hardy	Pyrus communis L.	Beurré Gris x ?	S108-S114	2x	Gellerts Butterbirne, Gellertova maslovka	1
+Beurré Sterckman	Pyrus communis L.	Unknown	S110-S115	2x	Belle-Alliance, d'Esterkman	1
+Bohème	Pyrus communis L.	Bartlett x Bella di Giugno	S101-S120	2x	/	1
+Bongerspeer	Pyrus communis L.	Unknown	S102-S110	2x	/	1
+Box's Goldrush	Pyrus communis L.	Unknown	S107-S125	2x	/	1
+Carmen	Pyrus communis L.	Dr. J. Guyot x Bella di Giugno	S105-S120	2x	/	1
+Catillac	Pyrus communis L.	Unknown	S108-S114-S125	3x	/	1
+Celina/QTee®  	Pyrus communis L.	Clapp's Favourite x Clara Frijs	S101-S125	2x	/	1
+Cepuna/Migo® 	Pyrus communis L.	Conference x Doyenné d'Hiver	S101-S108	2x	/	1
+Clapp's Favorite	Pyrus communis L.	Bartlett x Comptesse de Paris	S101-S108	2x	Kalle	1
+Clara Frijs	Pyrus communis L.	White Doyenné x ?	S101-S125	2x	Comptesse Clara Frijs	1
+Comptesse de Paris	Pyrus communis L.	Vicar of Winkfield x ?	S123-S125	2x	Grafin von Paris	1
+Corina® 	Pyrus communis L.	Conference mutant	S108-S121	2x	/	1
+Delbard Delice	Pyrus communis L.	Bartlett x Doyenné du Comice	S101-S105	2x	/	1
+Dicolor	Pyrus communis L.	Hessle x Talosova Zimni	S103-S116	2x	/	1
+Double de Guerre	Pyrus communis L.	Frangipane x ?	S106-S113	2x	/	1
+Durondeau	Pyrus communis L.	Uknown	S107-S125	2x	Tongre	1
+Forelle	Pyrus communis L.	Unknown	S101-S116	2x	/	1
+General Leclerc	Pyrus communis L.	Comte de Lambertye	S102-S116	2x	/	1
+Gieser Wildeman	Pyrus communis L.	Kleipeer	S101-S111	2x	/	1
+Improved Fertility	Pyrus communis L.	Unknown	S107-S118	2x-4x	/	1
+Josephine de Malines	Pyrus communis L.	Unknown	S107-S122	2x	/	1
+Kleipeer	Pyrus communis L.	Unknown	S101-S108	2x	/	1
+Kruidenierspeer	Pyrus communis L.	Unknown	S103-S113	2x	/	1
+Lawson	Pyrus communis L.	White Doyenné x Early Harvest	S104/1-S113	2x	/	1
+Légipont	Pyrus communis L.	Unknown	S102-S108	2x	/	1
+Louise bonne	Pyrus communis L.	White Doyenné x Verte Longue	S101-S102	2x	/	1
+RNA802/Red Modoc® 	Pyrus communis L.	El Dorado x ?	S101-S116	2x	/	1
+Noordhollandse Suikerpeer	Pyrus communis L.	Unknown	S101-S115-S113	3x	/	1
+Passe Crassane	Pyrus communis L.	Doyenné d'Hiver	S110-S121	2x	/	1
+Velvetine	Pyrus communis L.	Patrick Barry x Conference	S101-S121	2x	/	1
+Regal Red® Comice	Pyrus communis L.	Doyenné du Comice mutant	S104/2-S105	2x	/	1
+Roksolana	Pyrus communis L.	Olivier de Serres x Comptesse de Paris (this study)	S114-S123	2x	/	1
+Saint-Mathieu	Pyrus communis L.	Unknown	S123-S129	3x	/	1
+Sweet Sensation	Pyrus communis L.	Doyenné du Comice mutant	S104/2-S105	2x	/	1
+Triomphe de Jodoigne	Pyrus communis L.	Unknown	S102-S104/2-S123	3x	/	1
+Triomphe de Vienne	Pyrus communis L.	Bartlett x ?	S101-S103	2x	/	1
+Turandot	Pyrus communis L.	Dr. J. Guyot x Bella di Giugno	S101-S104/2	2x	/	1
+Uta/Dazzling Gold® 	Pyrus communis L.	Olivier de Serres x Bosc Golden Russet	S101-S125	2x	/	1
+Verdi/Sweet Blush® 	Pyrus communis L.	Doyenné du Comice x Louise Bonne	S101-S104/2	2x	/	1
+P3296	Pyrus betulifolia	Unknown	S38-S59	2x	/	1
+Chanticleer	Pyrus calleryana	Unknown	S1-S37	2x	/	1
+Olympic	Pyrus pyrifolia	Chojuro x ?	S3	2x	/	1
+Hosui	Pyrus pyrifolia	Kosui x ?	S3	2x	/	1
+Shinseikii	Pyrus pyrifolia	Nijiseikii x Chojuro	S3-S4	2x	/	1
+PremP109	Hybrid	Unknown	S5-S12	2x	/	1
+Bartlett DH	Pyrus communis L.	DH reference genome	S101	-	/	2
+Hosui	Pyrus pyrifolia	Kosui x ?	S3-S5	-	/	2
+Nijisseikii	Pyrus pyrifolia	-	S2-S4	-	/	2
+Doitsu	Pyrus pyrifolia	-	S1-S2	-	/	2
+Ya Li	Pyrus pyrifolia	-	S17-S21	-	/	2
