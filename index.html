@@ -14,7 +14,8 @@
     <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a>
-        <a href="docs.html">bronnenlijst</a>
+        <a href="uitleg.html">Info</a>
+        <a href="docs.html">Bronnenlijst</a>
     </nav>
 
     <!-- Main Content -->
@@ -22,17 +23,25 @@
         <h1>Welkom!</h1>
         <p>Op zoek naar de S-allelen van een perenvariëteit? Gebruik de zoekbalken hieronder!</p>
         <div id="filters">
-            <select id="soort">
-              <option value="">Alle perensoorten</option>
+            <select id="speciesFilter">
+              <option value="">Soorten</option>
             </select>
 
-            <select id="ploidie">
-                <option value="">Alle ploidiegraden</option>
+            <select id="ploidyFilter">
+                <option value="">Ploidie</option>
             </select>
 
-            <input type="text" id="nameSearch" placeholder="perenvariëteit">
+            <input type="text" id="nameSearch" placeholder="Zoek op naam">
+
         </div>
-        <div id="table-container"></div>
+        
+        <br></br>
+
+        <table class="my-table">
+            <div id="table-container">Loading...</div>           
+        </table>
+        
+
         
     </div>
 
@@ -49,7 +58,7 @@
     <script>
         let tableData = [];
 
-        fetch("overzichtstabel.txt")
+        fetch("data.txt")
         .then(response => response.text())
         .then(text => {
             const rows = text.trim().split("\n");
@@ -112,20 +121,17 @@
         document.getElementById("speciesFilter").addEventListener("change", applyFilters);
         document.getElementById("ploidyFilter").addEventListener("change", applyFilters);
         document.getElementById("nameSearch").addEventListener("input", applyFilters);
-        document.getElementById("idSearch").addEventListener("input", applyFilters);
 
         function applyFilters() {
             const species = document.getElementById("speciesFilter").value;
             const ploidy = document.getElementById("ploidyFilter").value;
             const name = document.getElementById("nameSearch").value.toLowerCase();
-            const id = document.getElementById("idSearch").value.toLowerCase();
 
             const filtered = tableData.filter(row => {
                 return (
                     (!species || row.Species === species) &&
                     (!ploidy || row.ploidy === ploidy) &&
-                    (!name || row["Cultivar"].toLowerCase().includes(name)) &&
-                    (!id || row["Accession_ID_NCGR"].toLowerCase().includes(id))
+                    (!name || row["Cultivar"].toLowerCase().includes(name))
                 );
             });
 
@@ -134,6 +140,3 @@
     </script>
 </body>
 </html>
-
-
-
