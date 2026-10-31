@@ -93,6 +93,8 @@ textarea {
 #container2 .my-table td {
   border-bottom: 1px solid #eee;
   border-right: 1px solid #ddd;
+	padding: 10px 12px;
+	text-align: left;
 }
 
 /* Footer */
