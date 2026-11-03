@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praktische en wetenschappelijke informatie over zelf-incompatibiliteit, bestuiving en compatibiliteit tussen perenrassen.">
+  <title>Peer & zelf-incompatibiliteit</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Peer en Bestuiving - home">
+        <span class="brand-mark">✿</span>
+        <span>ZELF-INCOMPATIBILITEIT BIJ PEER</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Hoofdnavigatie">
+        <a href="#waarom">Zelf-incompatibiliteit?</a>
+        <a href="#vind-s-allel">Check S-allelen</a>
+        <a href="#onderzoek">Ons Onderzoek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="eyebrow">Zelf-incompatibiliteit bij peer</p>
+          <h1>De juiste bestuiver maakt het verschil.</h1>
+          <p class="lead">Ontdek hoe genetische compatibiliteit tussen perenrassen de bevruchting beïnvloedt. Vind de juiste combinaties voor een doordachte indeling van de boomgaard.</p>
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#vind-s-allel">Vind S-allelen <span>→</span></a>
+            <a class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,.65)" href="#waarom">Hoe werkt het?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="waarom">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Waarom is zelf-incompatibiliteit belangrijk?</p>
+          <h2>Een goede vruchtzetting begint bij de juiste bestuiving.</h2>
+          <p class="lead">Niet elk perenras kan zomaar door elk ander perenras bestoven worden. Perenbomen hebben een natuurlijk herkenningsmechanisme nl. zelf-incompatibiliteit dat bepaalt welk stuifmeel wordt toegelaten.</p>
+          <p class="lead">Hoe gaat dit in zijn werk?</p>
+          <p class="bulletpoint">1. Het stuifmeel (pollen) kiemt en vormt een pollenbuis.</p>
+          <p class="bulletpoint">2. In de stijl wordt de pollenbuis herkend als compatibel of niet-compatibel.</p>
+          <p class="bulletpoint">3. Compatibel pollen kan doorgroeien, maar bij niet-compatibel pollen wordt de pollenbuis afgedood en kan er geen bevruchting optreden</p>
+          <p class="lead">Zelfs als een boomgaard goed bloeit en er veel hommels en bijen rondvliegen, dan nog kan de vruchtzet ondermaats zijn als het stuifmeel incompatibel is en afgedood wordt.</p>
+          <p class="lead">Zelf-incompatibiliteit wordt genetisch gestuurd. Dit betekent dat de compatibiliteit tussen twee perenrassen bepaald kan worden door middel van een simpele genetische test.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="card-body"><h3>Genetische compatibiliteit</h3><p>Ontdek hoe zelf-incompatibiliteit genetisch gereguleerd wordt.</p><a class="text-link" href="page1.html">Ontdek de genetica →</a></div></article>
+          <article class="card"><div class="card-body"><h3>S-genotypering</h3><p>Een simpele genetische test is voldoende om te weten te komen welke perenrassen compatibel zijn met elkaar.</p><a class="text-link" href="page2.html">Lees hoe dit werkt →</a></div></article>
+          <article class="card"><div class="card-body"><h3>Ploidie en incompatibiliteit</h3><p>Ploidie bepaalt mee hoe goed een bestuiver is. Leer hier wat ploidie is en hoe het de zelf-incompatibiliteit beïnvloedt.</p><a class="text-link" href="page3.html">Naar praktische kennis →</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section checker-section" id="vind-s-allel">
+      <div class="container checker-layout">
+        <div>
+          <h2>Wat is het S-genotype van mijn perenras?</h2>
+          <p class="lead">Een perenras heeft doorgaans twee S-allelen, ook wel het S-genotype genoemd. Dit S-genotype bepaalt de genetische compatibiliteit. Gebruik de checker om te zien welke S-allelen jouw perenras heeft.</p>
+        </div>
+        <div class="checker-card">
+          <p class="eyebrow">Check S-allelen</p>
+          <h3>Zoek de naam van een perenras:</h3>
+          <div class="field">
+            <input
+              type="text"
+              id="mainVariety"
+              placeholder="Bvb. Sweet Sensation"
+            >
+
+          </div>
+
+          <button class="btn btn-primary" id="checkButton" type="button" disabled>
+              Database laden...
+          </button>
+
+          <div class="result" id="checkerResult" role="status" aria-live="polite">
+              De perendatabase wordt geladen...
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section research" id="onderzoek">
+      <div class="container research-grid">
+        <div>
+          <p class="eyebrow" style="color:#b9d4b5">Ons onderzoek</p>
+          <h2>Wetenschappelijke kennis voor de praktijk.</h2>
+          <p>Onderzoek naar de genetische achtergrond van perenrassen geeft inzicht in zelf-incompatibiliteit en de mechanismen die bestuiving beïnvloeden.</p>
+          <p>Door onderzoeksresultaten te vertalen naar praktische informatie, kunnen telers beter onderbouwde keuzes maken bij de selectie van bestuiverrassen.</p>
+          <a class="btn btn-light" href="https://www.pgcilab.com/">Ontdek al ons onderzoek →</a>
+        </div>
+        <div class="research-image" role="img" aria-label="Onderzoek in een laboratorium"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">©2026 PGCI lab, Department of Biosystems, KU Leuven.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+
+      const input = document.getElementById("mainVariety");
+      const button = document.getElementById("checkButton");
+      const result = document.getElementById("checkerResult");
+      const suggestions = document.getElementById("varietySuggestions");
+
+      let pearCultivars = [];
+
+      // Check whether Papa Parse loaded
+      if (typeof Papa === "undefined") {
+          result.textContent = "Error: CSV reading library could not be loaded.";
+          console.error("Papa Parse is not loaded!");
+          return;
+      }
+
+      result.textContent = "Loading pear database...";
+
+      // Load CSV
+      Papa.parse("./pear-cultivars.csv", {
+          download: true,
+          header: true,
+          skipEmptyLines: true,
+          delimiter: ";",
+
+          complete: function(results) {
+
+              console.log("CSV loading completed:", results);
+
+              const headers = results.meta.fields || [];
+
+              // Check CSV headers
+              if (!headers.includes("name") ||
+                  !headers.includes("S-allele") ||
+                  !headers.includes("comment")) {
+
+                  result.textContent =
+                      "Error: Incorrect CSV column names. Check your Excel headers.";
+
+                  console.error("Found headers:", headers);
+                  return;
+              }
+
+              pearCultivars = results.data.filter(pear => pear.name?.trim());
+
+              if (pearCultivars.length === 0) {
+                  result.textContent = "Error: No pear cultivars found in CSV.";
+                  return;
+              }
+
+              // Populate suggestions, if datalist exists
+              if (suggestions) {
+                  pearCultivars.forEach(pear => {
+                      const option = document.createElement("option");
+                      option.value = pear.name.trim();
+                      suggestions.appendChild(option);
+                  });
+              }
+
+              // Enable button
+              button.disabled = false;
+              button.textContent = "Bekijk S-allelen →";
+
+              result.textContent = "Klaar om te zoeken! :)";
+
+              console.log("Loaded cultivars:", pearCultivars);
+          },
+
+          error: function(error) {
+
+              console.error("CSV loading failed:", error);
+
+              result.textContent =
+                  "Error: Could not load pear-cultivars.csv. Check its location.";
+          }
+      });
+
+
+      // Search function
+      button.addEventListener("click", function() {
+
+          const searchName = input.value.trim().toLowerCase();
+
+          if (!searchName) {
+              result.textContent = "Typ de naam van een perenras om te zoeken.";
+              return;
+          }
+
+          // Find all matching cultivars
+          const matches = pearCultivars.filter(pear =>
+              pear.name.trim().toLowerCase().includes(searchName)
+          );
+
+          if (matches.length === 0) {
+              result.textContent = `Sorry, we konden "${input.value.trim()}" niet vinden :(.`;
+              return;
+          }
+
+          // Display all matching cultivars
+          result.innerHTML = "";
+
+          matches.forEach(cultivar => {
+
+              const name = cultivar.name.trim();
+              const allele = (cultivar["S-allele"] || "").trim();
+              const comment = (cultivar.comment || "").trim();
+
+              let message = `${name} heeft het S-genotype ${allele}.`;
+
+              if (comment) {
+                  message += ` Een interessant weetje: ${comment}`;
+              }
+
+              const paragraph = document.createElement("p");
+              paragraph.textContent = message;
+
+              result.appendChild(paragraph);
+
+          });
+
+      });
+
+
+  });
+  </script>
+
+
+</body>
+</html>
