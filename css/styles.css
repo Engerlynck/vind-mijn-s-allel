@@ -37,7 +37,7 @@
     .lead { color: #435348; font-size: 1.13rem; max-width: 680px; }
     .bulletpoint { color: #435348; font-size: 1.13rem; box-sizing: border-box; padding-left: 24px; }
     .muted { color: var(--muted); }
-    .section { padding: 88px 0; }
+    .section { padding: 88px 0; background: url("../images/flower4.jpg") right center / auto 100% no-repeat; min-height: 400px; padding: 40px; }
     .section-head { max-width: 720px; margin-bottom: 38px; }
     .btn {
       display: inline-flex; align-items: center; justify-content: center; gap: 10px;
@@ -94,6 +94,7 @@
     .card-body { padding: 25px; }
     .card-icon { font-size: 1.7rem; margin-bottom: 15px; }
     .card p { color: var(--muted); font-size: .94rem; }
+    .text-extlink { color: var(--white); font-size: .9rem; }
     .text-link { color: var(--green-800); font-weight: 800; font-size: .9rem; }
     .text-link:hover { text-decoration: underline; }
 
@@ -150,7 +151,7 @@
     footer { background: #172c20; color: rgba(255,255,255,.78); padding: 48px 0 25px; }
     .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 35px; margin-bottom: 35px; }
     footer h3 { color: white; font-size: 1rem; }
-    footer a { display: block; margin: 7px 0; font-size: .9rem; }
+    footer a { display: inline; margin: 7px 0; }
     footer a:hover { color: white; }
     .copyright { border-top: 1px solid rgba(255,255,255,.15); padding-top: 20px; font-size: .8rem; color: rgba(255,255,255,.55); }
 
