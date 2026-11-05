@@ -171,5 +171,10 @@
       .hero-content { padding: 75px 0; }
       .checker-card { padding: 22px; }
       .checker-visual { min-height: 300px; }
-      
     }
+
+      @media screen and (max-width: 900px) {
+            .section{
+                  background-image:none;
+            }
+      }
