@@ -142,11 +142,10 @@
     .photo-card p { color: rgba(255,255,255,.85); font-size: .9rem; }
 
     /* Research */
-    .research { background: var(--green-950); color: white; }
+    .research { background: var(--green-950); color: white; background: url("../images/KU-Leuven-logo.jpg") right top / auto 100% no-repeat; background: url("../images/PGCI_logo.jpg") right center / auto 100% no-repeat; min-height: 400px; padding: 40px;  }
     .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: center; }
     .research h2 { color: white; }
     .research p { color: rgba(255,255,255,.78); }
-    .research-image { min-height: 340px; border-radius: 22px; background: url("https://images.unsplash.com/photo-1581093458791-9d42e3c6e3c3?auto=format&fit=crop&w=1200&q=85") center/cover; }
 
     /* Footer */
     footer { background: #172c20; color: rgba(255,255,255,.78); padding: 48px 0 25px; }
