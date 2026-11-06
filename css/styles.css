@@ -38,7 +38,6 @@
     .bulletpoint { color: #435348; font-size: 1.13rem; box-sizing: border-box; padding-left: 24px; }
     .muted { color: var(--muted); }
     .section { padding: 88px 0; background: url("../images/flower4.jpg") right center / auto 100% no-repeat; min-height: 400px; padding: 40px; }
-    .section2 { padding: 88px 0; min-height: 400px; padding: 40px; }
     .section-head { max-width: 720px; margin-bottom: 38px; }
     .btn {
       display: inline-flex; align-items: center; justify-content: center; gap: 10px;
@@ -114,12 +113,6 @@
     .result { display: block; padding: 17px; border-radius: 13px; margin-top: 16px; background: var(--green-50); border: 1px solid var(--line); }
     .result.show { display: block; }
     .result strong { display: block; color: var(--green-950); margin-bottom: 4px; }
-    .checker-visual {
-      min-height: 390px; border-radius: 24px; padding: 34px; color: white;
-      background: linear-gradient(145deg, rgba(32,59,43,.91), rgba(49,88,61,.82)),
-      url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1200&q=80") center/cover;
-      display: flex; flex-direction: column; justify-content: end;
-    }
     .checker-visual h3 { color: white; font-size: 1.8rem; }
     .checker-visual p { color: rgba(255,255,255,.85); max-width: 430px; }
 
@@ -142,11 +135,11 @@
     .photo-card p { color: rgba(255,255,255,.85); font-size: .9rem; }
 
     /* Research */
-    .research { background: var(--green-950); color: white; background: url("../images/KU-Leuven-logo.jpg") right top / auto 100% no-repeat; background: url("../images/PGCI_logo.jpg") right center / auto 100% no-repeat; min-height: 400px; padding: 40px;  }
+    .research { background: var(--green-950); color: white; }
     .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: center; }
     .research h2 { color: white; }
     .research p { color: rgba(255,255,255,.78); }
-
+  
     /* Footer */
     footer { background: #172c20; color: rgba(255,255,255,.78); padding: 48px 0 25px; }
     .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 35px; margin-bottom: 35px; }
@@ -171,10 +164,5 @@
       .hero-content { padding: 75px 0; }
       .checker-card { padding: 22px; }
       .checker-visual { min-height: 300px; }
+      
     }
-
-      @media screen and (max-width: 900px) {
-            .section{
-                  background-image:none;
-            }
-      }
