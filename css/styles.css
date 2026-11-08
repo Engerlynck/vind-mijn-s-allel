@@ -151,6 +151,7 @@
     @media (max-width: 850px) {
       .nav-links { display: none; position: absolute; top: 76px; left: 0; right: 0; padding: 20px; background: var(--cream); border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 16px; }
       .nav-links.open { display: flex; }
+      .section {background: none; }
       .menu-toggle { display: block; }
       .hero { min-height: 590px; background-position: 58% center; }
       .checker-layout, .research-grid { grid-template-columns: 1fr; }
@@ -158,7 +159,7 @@
     }
     @media (max-width: 650px) {
       .container { width: min(100% - 30px, 1160px); }
-      .section { padding: 64px 0; background: none; }
+      .section { padding: 64px 0; }
       .cards, .steps, .practical-grid, .footer-grid { grid-template-columns: 1fr; }
       .hero { min-height: 620px; }
       .hero-content { padding: 75px 0; }
