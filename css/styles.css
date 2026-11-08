@@ -148,11 +148,14 @@
     footer a:hover { color: white; }
     .copyright { border-top: 1px solid rgba(255,255,255,.15); padding-top: 20px; font-size: .8rem; color: rgba(255,255,255,.55); }
 
+    @media (max-width: 1000px ) {
+          .section {background-image: none; 
+    }
+
     @media (max-width: 850px) {
+      .menu-toggle { display: block; }
       .nav-links { display: none; position: absolute; top: 76px; left: 0; right: 0; padding: 20px; background: var(--cream); border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 16px; }
       .nav-links.open { display: flex; }
-      .section {background-image: none; }
-      .menu-toggle { display: block; }
       .hero { min-height: 590px; background-position: 58% center; }
       .checker-layout, .research-grid { grid-template-columns: 1fr; }
       .intro-grid { grid-template-columns: 1fr; gap: 16px; }
@@ -167,30 +170,3 @@
       .checker-visual { min-height: 300px; }
       
     }
-
-      /* Hamburger menu */
-      .menu-toggle {
-          display: none;
-          background: none;
-          border: none;
-          font-size: 28px;
-          cursor: pointer;
-      }
-
-      /* Mobile navigation */
-      @media (max-width: 650px) {
-          .menu-toggle {
-              display: block;
-          }
-      
-          .nav-links {
-              display: none;
-              flex-direction: column;
-              width: 100%;
-              gap: 15px;
-          }
-      
-          .nav-links.active {
-              display: flex;
-          }
-      }
