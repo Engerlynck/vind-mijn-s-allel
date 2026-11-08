@@ -158,7 +158,7 @@
     }
     @media (max-width: 650px) {
       .container { width: min(100% - 30px, 1160px); }
-      .section { padding: 64px 0; }
+      .section { padding: 64px 0; background-image: none; }
       .cards, .steps, .practical-grid, .footer-grid { grid-template-columns: 1fr; }
       .hero { min-height: 620px; }
       .hero-content { padding: 75px 0; }
