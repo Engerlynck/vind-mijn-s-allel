@@ -38,7 +38,7 @@
     .bulletpoint { color: #435348; font-size: 1.13rem; box-sizing: border-box; padding-left: 24px; }
     .muted { color: var(--muted); }
     .section { padding: 88px 0; background: url("../images/flower4.jpg") right center / auto 100% no-repeat; min-height: 400px; padding: 40px; }
-    .section2 { padding: 88px 0; background: url("../images/mechanism.jpg") right center / auto 30% no-repeat; min-height: 400px; padding: 40px; }
+    .section2 { padding: 88px 0; background: url("../images/mechanism.jpg") right top / auto 30% no-repeat; min-height: 400px; padding: 40px; }
     .section-head { max-width: 720px; margin-bottom: 38px; }
     .btn {
       display: inline-flex; align-items: center; justify-content: center; gap: 10px;
