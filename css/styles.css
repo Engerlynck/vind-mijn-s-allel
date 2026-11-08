@@ -151,7 +151,7 @@
     @media (max-width: 850px) {
       .nav-links { display: none; position: absolute; top: 76px; left: 0; right: 0; padding: 20px; background: var(--cream); border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 16px; }
       .nav-links.open { display: flex; }
-      .section {background: none; }
+      .section {background-image: none; }
       .menu-toggle { display: block; }
       .hero { min-height: 590px; background-position: 58% center; }
       .checker-layout, .research-grid { grid-template-columns: 1fr; }
