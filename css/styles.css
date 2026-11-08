@@ -152,16 +152,10 @@
           .section {background-image: none; 
     }
 
-    /* Hamburger menu */
-    .menu-toggle { display: none; }
-
-    @media (max-width: 650px) {
+    @media (max-width: 850px) {
       .menu-toggle {display: block; background: none; border: none; font-size: 28px; cursor: pointer; }
       .nav-links { display: none; flex-direction: column; width: 100%; gap: 15px; }
       .nav-links.active { display: flex; }
-     }
-        
-    @media (max-width: 850px) {
       .hero { min-height: 590px; background-position: 58% center; }
       .checker-layout, .research-grid { grid-template-columns: 1fr; }
       .intro-grid { grid-template-columns: 1fr; gap: 16px; }
